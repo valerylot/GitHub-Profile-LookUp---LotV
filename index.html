@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Lookup</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="mx-auto w-full mt-10">
+    <h1 class="text-3xl text-center">GitHub Profile Lookup</h1>
+
+    <form id="form" class="text-center">
+        <label for="username">Search a GitHub User:</label>
+        <input id="username" type="text" placeholder="Search..." class="border rounded-md p-2">
+        <button id="btn" type="submit" class="border rounded-md p-2 bg-green-200 mb-2">Look Up User</button>
+    </form>
+    
+    <div id="result" class="flex flex-col justify-center items-center border border-dotted max-w-xs mx-auto"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
